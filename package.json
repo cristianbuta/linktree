@@ -1,0 +1,38 @@
+{
+  "name": "cristianbuta-linktree",
+  "version": "0.1.0",
+  "description": "My personal linktree",
+  "keywords": [
+    "React"
+  ],
+  "scripts": {
+    "start": "webpack serve --mode development --env development --config ./webpack/webpack.config.js",
+    "build": "webpack --config ./webpack/webpack.config.js"
+  },
+  "browserslist": [
+    "last 2 chrome version",
+    "last 2 firefox version",
+    "last 2 safari version",
+    "last 2 edge version"
+  ],
+  "dependencies": {
+    "@types/node": "^17.0.39",
+    "@types/react": "^18.0.11",
+    "@types/react-dom": "^18.0.5",
+    "@types/styled-components": "^5.1.25",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "5.5.0",
+    "process": "0.11.10",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "style-loader": "^3.3.1",
+    "styled-components": "^5.3.5",
+    "terser-webpack-plugin": "5.3.3",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.4",
+    "webpack": "5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
