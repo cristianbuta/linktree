@@ -1,6 +1,6 @@
 # This is my personal link tree
 
-I use this as a aggregator for all my platforms
+I use this as an aggregator for all my platforms, feel free to use it as a nice alternative to linktree
 
 # License
 

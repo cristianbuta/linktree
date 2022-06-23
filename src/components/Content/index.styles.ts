@@ -1,13 +1,19 @@
 import styled from "styled-components";
-import { mobileSize } from "~constants";
+import { mobileHeight, mobileSize } from "~constants";
 
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media (max-width: ${mobileSize}) {
-    margin: 30px 0px 30px 0px;
+  @media (max-height: ${mobileHeight}) {
+    margin: 50px 0px 30px 0px;
   }
+
+  @media (min-height: ${mobileHeight}) {
+    justify-content: center;
+    height: 100%;
+  }
+
   gap: 20px;
   h3 {
     display: flex;

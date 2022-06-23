@@ -1,8 +1,12 @@
 import { createGlobalStyle } from "styled-components";
+import { mobileHeight } from "~constants";
 
 const GlobalStyle = createGlobalStyle`
   body {
     width: 100%;
+    @media (min-height: ${mobileHeight}) {
+      height: 100vh;
+    }
     overflow-x: hidden;
     margin: 0px;
     font-weight: 400;
