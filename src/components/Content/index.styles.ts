@@ -36,12 +36,13 @@ export const ProfilePicture = styled.div`
 `;
 
 export const TreeLink = styled.a`
+  font-weight: bold;
   cursor: pointer;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #24292e;
+  background-color: #fff;
   padding: 15px;
   width: 250px;
   border-radius: 10px;
